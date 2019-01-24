@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @item.name %>
+</p>
+
+<p>
+  <strong>Main:</strong>
+  <%= @item.main_id %>
+</p>
+
+<p>
+  <strong>Second:</strong>
+  <%= @item.second_id %>
+</p>
+
+<p>
+  <strong>Salad:</strong>
+  <%= @item.salad_id %>
+</p>
+
+<p>
+  <strong>Cheese:</strong>
+  <%= @item.cheese_id %>
+</p>
+
+<p>
+  <strong>Sauce:</strong>
+  <%= @item.sauce_id %>
+</p>
+
+<p>
+  <strong>Drink:</strong>
+  <%= @item.drink_id %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @item.price %>
+</p>
+
+<p>
+  <strong>Order:</strong>
+  <%= @item.order %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
