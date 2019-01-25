@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= form.label :main_id %>
-    <%= form.text_field :main_id %>
+    <%= form.collection_select(:main_id, Ingredient.order(:name), :id, :name, include_blank: false)  %>
   </div>
 
   <div class="field">

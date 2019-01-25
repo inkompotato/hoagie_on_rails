@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :customers
+  get 'process/index'
+  get 'process/new'
+  get 'process/create'
   resources :orders
   resources :items
   resources :ingredients
