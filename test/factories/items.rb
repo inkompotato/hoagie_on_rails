@@ -27,5 +27,5 @@ end
 FactoryBot.build :item
 FactoryBot.build :item_2
 
-FactoryBot.create :item
-FactoryBot.create :item_2
+#FactoryBot.create :item
+#FactoryBot.create :item_2
