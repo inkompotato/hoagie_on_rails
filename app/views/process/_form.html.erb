@@ -1,0 +1,43 @@
+<%= form_with(model: @item, local: true) do |form| %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :main_id %>
+    <%= form.collection_select(:main_id, Ingredient.where("category = 'Main'"), :id, :name, include_blank: false)  %>
+  </div>
+
+  <div class="field">
+    <%= form.label :second_id %>
+    <%= form.collection_select(:second_id, Ingredient.where("category = 'Second'"), :id, :name, include_blank: false)  %>
+  </div>
+
+  <div class="field">
+    <%= form.label :salad_id %>
+    <%= form.collection_select(:salad_id, Ingredient.where("category = 'Salad'"), :id, :name, include_blank: false)  %>
+
+  </div>
+
+  <div class="field">
+    <%= form.label :cheese_id %>
+    <%= form.collection_select(:cheese_id, Ingredient.where("category = 'Cheese'"), :id, :name, include_blank: false)  %>
+
+  </div>
+
+  <div class="field">
+    <%= form.label :sauce_id %>
+    <%= form.collection_select(:sauce_id, Ingredient.where("category = 'Sauce'"), :id, :name, include_blank: false)  %>
+  </div>
+
+  <div class="field">
+    <%= form.label :drink_id %>
+    <%= form.collection_select(:drink_id, Ingredient.where("category = 'Drink'"), :id, :name, include_blank: false)  %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
