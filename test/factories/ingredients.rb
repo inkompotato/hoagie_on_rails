@@ -85,18 +85,18 @@ FactoryBot.build :ingredient_10
 FactoryBot.build :ingredient_11
 FactoryBot.build :ingredient_12
 
-FactoryBot.create :ingredient
-#FactoryBot.create :ingredient_2
-#FactoryBot.create :ingredient_3
-#FactoryBot.create :ingredient_4
-#FactoryBot.create :ingredient_5
-#FactoryBot.create :ingredient_6
-#FactoryBot.create :ingredient_7
-#FactoryBot.create :ingredient_8
-#FactoryBot.create :ingredient_9
-#FactoryBot.create :ingredient_10
-#FactoryBot.create :ingredient_11
-#FactoryBot.create :ingredient_12
+# FactoryBot.create :ingredient
+# FactoryBot.create :ingredient_2
+# FactoryBot.create :ingredient_3
+# FactoryBot.create :ingredient_4
+# FactoryBot.create :ingredient_5
+# FactoryBot.create :ingredient_6
+# FactoryBot.create :ingredient_7
+# FactoryBot.create :ingredient_8
+# FactoryBot.create :ingredient_9
+# FactoryBot.create :ingredient_10
+# FactoryBot.create :ingredient_11
+# FactoryBot.create :ingredient_12
 
 
 

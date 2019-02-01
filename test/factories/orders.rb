@@ -7,14 +7,14 @@ FactoryBot.define do
   end
 
   factory :order_2, class: Order do
-    customer_id 5
+    customer_id 2
     payment 'Creditv Card'
     price 1343
     status 'pending'
   end
 
   factory :order_3, class: Order do
-    customer_id 6
+    customer_id 3
     payment 'PayPal'
     price 1689
     status 'complete'
@@ -33,7 +33,7 @@ FactoryBot.build :order_2
 FactoryBot.build :order_3
 FactoryBot.build :order_4
 
-#FactoryBot.create :order
-#FactoryBot.create :order_2
-#FactoryBot.create :order_3
-#FactoryBot.create :order_4
+# FactoryBot.create :order
+# FactoryBot.create :order_2
+# FactoryBot.create :order_3
+# FactoryBot.create :order_4

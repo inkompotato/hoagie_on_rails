@@ -37,7 +37,7 @@ FactoryBot.build :customer_2
 FactoryBot.build :customer_3
 FactoryBot.build :customer_4
 
-#FactoryBot.create :customer
-#FactoryBot.create :customer_2
-#FactoryBot.create :customer_3
-#FactoryBot.create :customer_4
+# FactoryBot.create :customer
+# FactoryBot.create :customer_2
+# FactoryBot.create :customer_3
+# FactoryBot.create :customer_4
