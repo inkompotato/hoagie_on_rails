@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>ID</th>
       <th>Payment</th>
       <th>Price</th>
       <th>Status</th>
@@ -16,6 +17,7 @@
   <tbody>
     <% @orders.each do |order| %>
       <tr>
+        <td><%= order.id %></td>
         <td><%= order.payment %></td>
         <td><%= order.price %></td>
         <td><%= order.status %></td>
