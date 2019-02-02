@@ -28,6 +28,7 @@ class OrdersController < ApplicationController
 
     respond_to do |format|
       if @order.save
+        session[:current_order_id]=@order.id
         format.html { redirect_to @order, notice: 'Order was successfully created.' }
         format.json { render :show, status: :created, location: @order }
       else

@@ -1,5 +1,5 @@
 class Order < ApplicationRecord
-  belongs_to :customer
+  #belongs_to :customer
 
   def items_list
     Item.where(order_id: id)
