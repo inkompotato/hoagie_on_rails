@@ -24,8 +24,10 @@ FactoryBot.define do
   end
 end
 
+=begin
 FactoryBot.build :item
 FactoryBot.build :item_2
+=end
 
 #FactoryBot.create :item
 #FactoryBot.create :item_2

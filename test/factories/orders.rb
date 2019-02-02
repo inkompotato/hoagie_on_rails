@@ -28,10 +28,12 @@ FactoryBot.define do
   end
 end
 
+=begin
 FactoryBot.build :order
 FactoryBot.build :order_2
 FactoryBot.build :order_3
 FactoryBot.build :order_4
+=end
 
 #FactoryBot.create :order
 #FactoryBot.create :order_2

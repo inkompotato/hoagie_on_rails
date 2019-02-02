@@ -72,6 +72,7 @@ FactoryBot.define do
   end
 end
 
+=begin
 FactoryBot.build :ingredient
 FactoryBot.build :ingredient_2
 FactoryBot.build :ingredient_3
@@ -86,6 +87,7 @@ FactoryBot.build :ingredient_11
 FactoryBot.build :ingredient_12
 
 FactoryBot.create :ingredient
+=end
 #FactoryBot.create :ingredient_2
 #FactoryBot.create :ingredient_3
 #FactoryBot.create :ingredient_4

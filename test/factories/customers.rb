@@ -32,10 +32,10 @@ FactoryBot.define do
   end
 end
 
-FactoryBot.build :customer
-FactoryBot.build :customer_2
-FactoryBot.build :customer_3
-FactoryBot.build :customer_4
+#FactoryBot.build :customer
+#FactoryBot.build :customer_2
+#FactoryBot.build :customer_3
+#FactoryBot.build :customer_4
 
 #FactoryBot.create :customer
 #FactoryBot.create :customer_2

@@ -1,0 +1,135 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*general*/
+
+* {
+
+}
+
+body {
+
+
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/*header*/
+
+/*image source: "https://www.pexels.com/photo/sandwich-and-slice-of-lemons-1603901/"*/
+header {
+  background: url("bread.jpg") no-repeat center;
+  background-size: 100% auto;
+  font-weight: 100;
+  height: 20em;
+}
+
+#logo {
+  float: left;
+  font-size: 2em;
+  font-style: italic;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  text-decoration: none;
+  text-shadow: -3px 3px hsla(0, 0%, 100%, 0.4);
+}
+
+nav {
+  font-weight: normal;
+  font-size: 1.3em;
+  letter-spacing: 0px;
+  padding-top: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none
+}
+
+/*typography*/
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/*form*/
+
+input {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  display: block;
+  width: 30%;
+}
+
+input[type=submit] {
+  margin-top: 20px;
+}
+
+/*table*/
+table {
+
+}
+
+th {
+  height: 20px;
+}
+
+th, td {
+  padding: 3px;
+  padding-right: 25px;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
